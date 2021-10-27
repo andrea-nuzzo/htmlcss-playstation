@@ -1,16 +1,13 @@
-/* <--- DEBUG ---> */
-body.debug{
-    background-color: tomato;
-}
-
-.debug .header_row_1{
+/* START HEADER */
+.bg_dark{
     background-color: black;
 }
-
 #sony_logo{
     width:100px;
 }
+/* END HEADER */
 
+/* START JUMBO */
 .jumbotron{
     margin-top: 88px;
     height: 500px;
@@ -18,11 +15,18 @@ body.debug{
     background-size: cover;
     background-position: center;
 }
-
 #returnal_banner{
     width: 100%;
 }
+/* END JUMBO */
 
+/* START MAIN */
 .prova img {
     width: 100%;
 }
+
+
+.rounded_img{
+    border-radius: 1rem;
+}
+/* END MAIN */
