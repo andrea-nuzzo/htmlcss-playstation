@@ -28,4 +28,12 @@
 .rounded_img{
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 767px){
+    .ghost_sm{
+        display: none;
+    }
+}
+
 /* END MAIN */
+
