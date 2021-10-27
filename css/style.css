@@ -30,3 +30,8 @@
     border-radius: 1rem;
 }
 /* END MAIN */
+
+
+.width_img_PS5 img {
+    width: 100%;
+}
