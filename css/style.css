@@ -51,8 +51,12 @@
     }
 }
 
-.bg_lightgray{
+.bg_psplus{
     background-color: #bebcbb;
+}
+
+.bg_psnow{
+    background-color: #171c39;
 }
 
 /* END MAIN */
