@@ -1,3 +1,24 @@
+
+
+
+/* START BUTTON */
+.btn_general{
+    padding:0.5rem 1rem 0.5rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    transition: 0.5s;
+    
+}
+.btn_general:hover{
+    outline: 3px;
+    outline-style: solid;
+    outline-offset: 3px;
+}
+/* END BUTTON */
+
+
+
+
 /* START HEADER */
 .bg_dark{
     background-color: black;
@@ -45,23 +66,33 @@
     border-radius: 1rem;
 }
 
+/* hides the images of the sections Playstation Plus and Now */
 @media screen and (max-width: 767px){
     .ghost_sm{
         display: none;
     }
 }
 
+
+/* Start section PlayStationPlus */
 .bg_psplus{
     background-color: #bebcbb;
 }
 
+.btn_color_ps_plus{
+    color: #007bff ;
+}
+/* Start section PlayStationPlus */
+
+/* Start section PlayStationNow */
 .bg_psnow{
     background-color: #171c39;
 }
-
-.bg_footer{
-    background-color: #174395;
+#btn_color_ps_now {
+    outline-color: gainsboro;
 }
+/* Start section PlayStationNow */
+
 
 /* Start section Social */
 @media (min-width: 576px) {
@@ -70,12 +101,14 @@
     }
   }
 /* End section Social */
-
 /* END MAIN */
 
 
 
 /* START FOOTER */
+.bg_footer{
+    background-color: #174395;
+}
 .min_width_footer{
     min-width: 136px;
 }
