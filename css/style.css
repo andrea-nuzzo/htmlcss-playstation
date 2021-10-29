@@ -1,6 +1,4 @@
 
-
-
 /* START BUTTON */
 .btn_general{
     padding:0.5rem 1rem 0.5rem 1rem;
@@ -15,7 +13,6 @@
     outline-offset: 3px;
 }
 /* END BUTTON */
-
 
 
 
@@ -51,13 +48,11 @@
     width: 100%;
 }
 
-.min-height{
-    min-height: 200px;
-}
-
+/* Start section series img dark */
 .rounded_img{
     border-radius: 1rem;
 }
+/* End section series img dark */
 
 /* Start section console PS4 */
 .btn_color_ps4{
@@ -76,7 +71,6 @@
         display: none;
     }
 }
-
 
 /* Start section PlayStationPlus */
 .bg_psplus{
