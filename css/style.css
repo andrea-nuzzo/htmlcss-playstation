@@ -28,25 +28,33 @@
 /* START JUMBO */
 .jumbotron{
     margin-top: 88px;
-    height: 500px;
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
 }
-
-.jumbotron2{
-    height: 500px;
-    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
 /* END JUMBO */
 
 /* START MAIN */
 .width_img img {
     width: 100%;
 }
+
+/* Start section jumbo2 */
+.jumbotron2{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn_color_jumbo2{
+    background-color: #d9534f;
+    color: white;
+}
+
+#outline_color_jumbo2{
+    outline-color: #d9534f;
+}
+/* End section jumbo2 */
 
 /* Start section series img dark */
 .rounded_img{
