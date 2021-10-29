@@ -59,5 +59,16 @@
     background-color: #171c39;
 }
 
+.bg_footer{
+    background-color: #174395;
+}
+
 /* END MAIN */
 
+
+
+/* START FOOTER */
+.min_width_footer{
+    min-width: 136px;
+}
+/* END FOOTER */
