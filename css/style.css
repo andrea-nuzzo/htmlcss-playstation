@@ -32,10 +32,13 @@
     background-size: cover;
     background-position: center;
 }
+.margin_jumbo{
+    margin-top: 200px;
+    margin-left: 1rem;
+}
 /* END JUMBO */
 
 /* START MAIN */
-
 /* Start section series img */
 .move_y{
     border: inherit;
