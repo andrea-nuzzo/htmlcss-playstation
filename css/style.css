@@ -39,6 +39,29 @@
     width: 100%;
 }
 
+/* Start section PS5 */
+.border_bottom_miniature{
+    border-bottom:none;
+}
+
+.border_bottom_miniature:hover{
+    border-bottom: 1px solid #007bff;
+}
+.opacity_miniature_ps5{
+    opacity: 75%;
+}
+
+.opacity_miniature_ps5:hover{
+    opacity: 100%;
+}
+
+@media screen and (max-width:767px) {
+    #ghost_miniatures figcaption{
+        display: none;
+    }
+}
+/* End section PS5 */
+
 /* Start section jumbo2 */
 .jumbotron2{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
