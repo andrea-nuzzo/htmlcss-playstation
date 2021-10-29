@@ -35,9 +35,20 @@
 /* END JUMBO */
 
 /* START MAIN */
-.width_img img {
-    width: 100%;
+
+/* Start section series img */
+.move_y{
+    border: inherit;
+    transition: 1s;
 }
+
+.move_y:hover{
+    border: 1px solid #007bff;
+    transform: translateY(-20px);
+}
+/* End section series img */
+
+
 
 /* Start section PS5 */
 .border_bottom_miniature{
@@ -47,6 +58,7 @@
 .border_bottom_miniature:hover{
     border-bottom: 1px solid #007bff;
 }
+
 .opacity_miniature_ps5{
     opacity: 75%;
 }
