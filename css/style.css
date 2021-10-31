@@ -23,11 +23,39 @@
 #sony_logo{
     width:100px;
 }
+
+
+/* Start section navbar */
+.btn_color_nav{
+    background-color: black;
+    color: white;
+}
+
+#outline_color_nav{
+    outline-color: black;
+}
+
+.dropdown {
+    position: static;
+    display: inline-block;
+}
+
+.dropdown-menu { 
+    width: 100%; 
+    text-align: center; 
+}
+
+.dot{
+    list-style: circle;
+    color: blue;
+}
+/* End section navbar */
 /* END HEADER */
+
 
 /* START JUMBO */
 .jumbotron{
-    margin-top: 88px;
+    margin-top: 116px;
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
